@@ -1,51 +1,105 @@
-# 🧾 TicariOtomasyon – .NET Core Ticari Otomasyon Paneli
+# 📊 OtomoTic - Ticari Otomasyon Paneli
 
-**TicariOtomasyon**, .NET Core kullanılarak geliştirilmiş, katmanlı mimariye ve SOLID prensiplerine uygun bir ticari otomasyon panelidir.  
+![.NET Core](https://img.shields.io/badge/.NET_Core-5.0-blue?logo=dotnet)
+![C#](https://img.shields.io/badge/C%23-9.0-green?logo=csharp)
+![SQL Server](https://img.shields.io/badge/SQL_Server-Latest-red?logo=microsoft-sql-server)
+![HTML5](https://img.shields.io/badge/HTML-5-orange?logo=html5)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5.0-purple?logo=bootstrap)
+
+## 🎯 Proje Hakkında
+
+**OtomoTic**, .NET Core kullanılarak geliştirilmiş, katmanlı mimariye ve SOLID prensiplerine uygun bir ticari otomasyon panelidir.  
 Proje, ürün, müşteri ve sipariş yönetimi gibi temel ticari işlemleri içerir.
 
----
-
-## 🚀 Proje Özeti
-
-- **Amaç:** Ticari işlemleri yönetmek için kapsamlı bir panel oluşturmak
-- **Platform:** ASP.NET Core MVC
-- **Veritabanı:** Entity Framework Core (SQL Server)
-- **Frontend:** HTML, CSS, SCSS, JavaScript
-- **Mimari:** Katmanlı yapı
-  - `CoreLayer`: Ortak sınıflar ve arabirimler
-  - `EntityLayer`: Entity modelleri
-  - `BusinessLayer`: İş mantığı ve servisler
-  - `DataAccessLayer`: Veritabanı erişimi ve repository’ler
+### Hedef Kullanıcılar
+- Perakende ve ticari işletmeler
+- Ürün satışı yapan firmalar
+- İnsan kaynakları yönetimi gereken kuruluşlar
+- Müşteri ilişkileri yönetmek isteyen işletmeler
 
 ---
 
-## 📚 Kullanılan Teknolojiler ve Prensipler
+## ✨ Temel Özellikler
 
-- ASP.NET Core MVC
-- Entity Framework Core ve SQL Server
-- Katmanlı mimari (Layered Architecture)
-- SOLID prensipleri
-- HTML, CSS, SCSS, JavaScript
+<table width="100%">
+<tr>
+<td width="33%" valign="top">
+
+### 📦 Ürün Yönetimi
+- Ürün ekleme / düzenleme / silme  
+- Ürün kategorilendirme  
+- Depo stok takibi  
+- Ürün detay yönetimi  
+
+</td>
+
+<td width="33%" valign="top">
+
+### 👥 Müşteri Yönetimi
+- Müşteri kayıt ve profil  
+- İletişim bilgileri  
+- Satış geçmişi takibi  
+- Müşteri segmentasyonu  
+
+</td>
+
+<td width="33%" valign="top">
+
+### 💼 Satış & Rapor
+- Satış işlemleri kaydı  
+- Satış raporları  
+- Gelir-gider takibi  
+- Fatura yönetimi  
+
+</td>
+</tr>
+
+<tr>
+<td width="33%" valign="top">
+
+### 📧 İletişim
+- Sistem içi mesajlaşma  
+- Gelen / giden kutusu  
+- Mesaj yönetimi  
+- Bildirim sistemi  
+
+</td>
+
+<td width="33%" valign="top">
+
+### 👨‍💼 Admin Paneli
+- Yönetici hesap yönetimi  
+- Rol ve yetki yönetimi  
+- Sistem ayarları  
+- Erişim kontrolü  
+
+</td>
+
+<td width="33%" valign="top">
+<!-- Boş kolon simetri için -->
+</td>
+
+</tr>
+</table>
 
 ---
 
-## ⚙️ Özellikler
+## 🛠️ Teknoloji Stack
 
-- Kullanıcı kaydı ve giriş
-- Ürün yönetimi (ekleme, güncelleme, listeleme, silme)
-- Müşteri yönetimi (ekleme, güncelleme, listeleme, silme)
-- Sipariş ve fatura işlemleri
-- Kategori ve etiketleme desteği
-- Katmanlı mimari ile temiz kod uygulaması
-- Entity Framework Core ile veri yönetimi
+| Bölüm | Teknoloji |
+|-------|-----------|
+| **Backend** | .NET Core |
+| **Frontend** | HTML, CSS, JavaScript |
+| **Styling** | SCSS, CSS |
+| **Database** | SQL Server |
+| **Architecture** | Katmanlı Mimari (Layered Architecture) |
+| **Tasarım Desenleri** | SOLID Prensipleri |
 
 ---
 
 ## 🎯 Amaç ve Öğrenim Hedefleri
 
-- ASP.NET Core ile web uygulaması geliştirme deneyimi kazanmak
-- Katmanlı mimari (Layered Architecture) ve SOLID prensiplerini uygulamak
-- Entity Framework Core ve SQL Server ile veri işlemleri
-- Basit bir ticari otomasyon paneli üzerinden .NET Core’un temel kavramlarını deneyimlemek
-
----
+- Küçük ve orta ölçekli işletmeler için temel bir ticari otomasyon altyapısı oluşturmak
+- Ürün, müşteri ve satış süreçlerini dijital ortamda yönetilebilir hale getirmek
+- Katmanlı mimari kullanarak sürdürülebilir ve genişletilebilir bir yapı kurmak
+- Yetkilendirme ve rol yönetimi ile güvenli bir sistem tasarlamak
